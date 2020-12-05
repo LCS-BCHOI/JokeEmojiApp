@@ -30,7 +30,7 @@ struct JokePage: View {
                         getJoke() // getting another joke
                         self.punchLine = ""
                     }
-                    NavigationLink(destination: Text("Random Emoji")){
+                    NavigationLink(destination: RandomEmoji()){
                         Text("Random Emoji")
                     }
                 }

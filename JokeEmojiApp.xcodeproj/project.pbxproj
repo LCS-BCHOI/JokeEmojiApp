@@ -14,6 +14,7 @@
 		DA9DC774257BE57900D33690 /* RandomJokeGetAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC773257BE57900D33690 /* RandomJokeGetAnotherView.swift */; };
 		DA9DC778257BE5E100D33690 /* JokePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC777257BE5E100D33690 /* JokePage.swift */; };
 		DA9DC77B257BE61100D33690 /* JokeStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC77A257BE61100D33690 /* JokeStructure.swift */; };
+		DA9DC780257BEB9200D33690 /* RandomEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC77F257BEB9200D33690 /* RandomEmoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DA9DC773257BE57900D33690 /* RandomJokeGetAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeGetAnotherView.swift; sourceTree = "<group>"; };
 		DA9DC777257BE5E100D33690 /* JokePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokePage.swift; sourceTree = "<group>"; };
 		DA9DC77A257BE61100D33690 /* JokeStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeStructure.swift; sourceTree = "<group>"; };
+		DA9DC77F257BEB9200D33690 /* RandomEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomEmoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DA9DC77A257BE61100D33690 /* JokeStructure.swift */,
 				DA9DC773257BE57900D33690 /* RandomJokeGetAnotherView.swift */,
 				DA9DC777257BE5E100D33690 /* JokePage.swift */,
+				DA9DC77F257BEB9200D33690 /* RandomEmoji.swift */,
 			);
 			path = JokeEmojiApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				DA9DC774257BE57900D33690 /* RandomJokeGetAnotherView.swift in Sources */,
 				DA9DC766257BE3F200D33690 /* ContentView.swift in Sources */,
 				DA9DC764257BE3F200D33690 /* JokeEmojiAppApp.swift in Sources */,
+				DA9DC780257BEB9200D33690 /* RandomEmoji.swift in Sources */,
 				DA9DC77B257BE61100D33690 /* JokeStructure.swift in Sources */,
 				DA9DC778257BE5E100D33690 /* JokePage.swift in Sources */,
 			);

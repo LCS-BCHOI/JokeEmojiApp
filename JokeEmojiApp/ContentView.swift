@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView{
             VStack{
                 Spacer()
-                NavigationLink(destination: Text("PlaceHolder")){
+                NavigationLink(destination: RandomEmoji()){
                     Text("Random Emoji")
                 }
                 
