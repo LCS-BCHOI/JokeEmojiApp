@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
+                Spacer()
                 NavigationLink(destination: Text("PlaceHolder")){
                     Text("Random Emoji")
                 }
@@ -19,7 +20,7 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Place Holder")){
                     Text("Get A Joke")
                 }
-                
+                Spacer()
                 
             }
             .navigationBarTitle("Jokes And Emoji")
