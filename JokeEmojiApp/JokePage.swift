@@ -13,7 +13,6 @@ struct JokePage: View {
     
     var body: some View {
         VStack{
-            Text("Hello World")
             Form{
                 Section(header: Text("Setup")){ // Another Joke
                     Text("\(joke.setup)")
@@ -29,12 +28,14 @@ struct JokePage: View {
                 Section(header: Text("Utility")){ // Button and stuff
                     Button("Get Another Joke"){ // Getting another Joke
                         getJoke() // getting another joke
+                        self.punchLine = ""
                     }
                     NavigationLink(destination: Text("Random Emoji")){
                         Text("Random Emoji")
                     }
                 }
             }
+            .navigationBarTitle("Jokes For You")
         }.onAppear(perform: {
             getJoke() // Getting joke when it's loaded
         })

@@ -17,7 +17,7 @@ struct ContentView: View {
                 }
                 
                 Spacer()
-                NavigationLink(destination: RandomJokeGetAnotherView()){
+                NavigationLink(destination: JokePage()){
                     Text("Get A Joke")
                 }
                 Spacer()
