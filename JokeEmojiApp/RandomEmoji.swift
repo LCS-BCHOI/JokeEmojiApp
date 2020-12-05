@@ -16,9 +16,17 @@ extension String{ // Getting random Emoji in swift code from https://gist.github
     }
 }
 struct RandomEmoji: View {
+    @State private var emoji = String.randomEmoji()
     var body: some View {
         VStack{
-            Text(String.randomEmoji())
+            Text(emoji)
+                .font(.largeTitle)
+                .multilineTextAlignment(.center)
+                
+            
+            Button("Another Emoji"){
+                self.emoji = String.randomEmoji()
+            }
             .navigationBarTitle("Random Emoji")
         }
     }
