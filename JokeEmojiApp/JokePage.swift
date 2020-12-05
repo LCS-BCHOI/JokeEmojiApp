@@ -30,12 +30,16 @@ struct JokePage: View {
                         getJoke() // getting another joke
                         self.punchLine = ""
                     }
-                    NavigationLink(destination: RandomEmoji()){
-                        Text("Random Emoji")
-                    }
                 }
             }
             .navigationBarTitle("Jokes For You")
+            .navigationBarItems(trailing:
+                                    HStack{
+                                        NavigationLink(destination: LastPage()){
+                                            Text("Done")
+                                        }
+                                    }
+            )
         }.onAppear(perform: {
             getJoke() // Getting joke when it's loaded
         })
