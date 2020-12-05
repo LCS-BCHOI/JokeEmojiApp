@@ -9,8 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            VStack{
+                NavigationLink(destination: Text("PlaceHolder")){
+                    Text("Random Emoji")
+                }
+                
+                Spacer()
+                NavigationLink(destination: Text("Place Holder")){
+                    Text("Get A Joke")
+                }
+                
+                
+            }
+            .navigationBarTitle("Jokes And Emoji")
+        }
     }
 }
 
