@@ -9,7 +9,18 @@ import SwiftUI
 
 struct LastPage: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            Spacer()
+            Text(String.randomEmoji())
+                .font(.title)
+            
+            Spacer()
+            Text("Have A Nice Day")
+                .font(.title)
+                .fontWeight(.ultraLight)
+            
+            Spacer()
+        }
     }
 }
 
