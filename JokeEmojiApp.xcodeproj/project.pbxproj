@@ -11,6 +11,9 @@
 		DA9DC766257BE3F200D33690 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC765257BE3F200D33690 /* ContentView.swift */; };
 		DA9DC768257BE3FB00D33690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9DC767257BE3FB00D33690 /* Assets.xcassets */; };
 		DA9DC76B257BE3FB00D33690 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9DC76A257BE3FB00D33690 /* Preview Assets.xcassets */; };
+		DA9DC774257BE57900D33690 /* RandomJokeGetAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC773257BE57900D33690 /* RandomJokeGetAnotherView.swift */; };
+		DA9DC778257BE5E100D33690 /* JokePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC777257BE5E100D33690 /* JokePage.swift */; };
+		DA9DC77B257BE61100D33690 /* JokeStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC77A257BE61100D33690 /* JokeStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DA9DC767257BE3FB00D33690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9DC76A257BE3FB00D33690 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA9DC76C257BE3FB00D33690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9DC773257BE57900D33690 /* RandomJokeGetAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeGetAnotherView.swift; sourceTree = "<group>"; };
+		DA9DC777257BE5E100D33690 /* JokePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokePage.swift; sourceTree = "<group>"; };
+		DA9DC77A257BE61100D33690 /* JokeStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				DA9DC767257BE3FB00D33690 /* Assets.xcassets */,
 				DA9DC76C257BE3FB00D33690 /* Info.plist */,
 				DA9DC769257BE3FB00D33690 /* Preview Content */,
+				DA9DC77A257BE61100D33690 /* JokeStructure.swift */,
+				DA9DC773257BE57900D33690 /* RandomJokeGetAnotherView.swift */,
+				DA9DC777257BE5E100D33690 /* JokePage.swift */,
 			);
 			path = JokeEmojiApp;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9DC774257BE57900D33690 /* RandomJokeGetAnotherView.swift in Sources */,
 				DA9DC766257BE3F200D33690 /* ContentView.swift in Sources */,
 				DA9DC764257BE3F200D33690 /* JokeEmojiAppApp.swift in Sources */,
+				DA9DC77B257BE61100D33690 /* JokeStructure.swift in Sources */,
+				DA9DC778257BE5E100D33690 /* JokePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
