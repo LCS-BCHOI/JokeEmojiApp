@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4EA760257ED27400BB2814 /* SavedJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4EA75F257ED27400BB2814 /* SavedJokeView.swift */; };
 		DA9DC764257BE3F200D33690 /* JokeEmojiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC763257BE3F200D33690 /* JokeEmojiAppApp.swift */; };
 		DA9DC766257BE3F200D33690 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9DC765257BE3F200D33690 /* ContentView.swift */; };
 		DA9DC768257BE3FB00D33690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9DC767257BE3FB00D33690 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA4EA75F257ED27400BB2814 /* SavedJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJokeView.swift; sourceTree = "<group>"; };
 		DA9DC760257BE3F200D33690 /* JokeEmojiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeEmojiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9DC763257BE3F200D33690 /* JokeEmojiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeEmojiAppApp.swift; sourceTree = "<group>"; };
 		DA9DC765257BE3F200D33690 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DA9DC777257BE5E100D33690 /* JokePage.swift */,
 				DA9DC77F257BEB9200D33690 /* RandomEmoji.swift */,
 				DA9DC782257BF03F00D33690 /* LastPage.swift */,
+				DA4EA75F257ED27400BB2814 /* SavedJokeView.swift */,
 			);
 			path = JokeEmojiApp;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				DA9DC764257BE3F200D33690 /* JokeEmojiAppApp.swift in Sources */,
 				DA9DC780257BEB9200D33690 /* RandomEmoji.swift in Sources */,
 				DA9DC77B257BE61100D33690 /* JokeStructure.swift in Sources */,
+				DA4EA760257ED27400BB2814 /* SavedJokeView.swift in Sources */,
 				DA9DC778257BE5E100D33690 /* JokePage.swift in Sources */,
 				DA9DC783257BF03F00D33690 /* LastPage.swift in Sources */,
 			);

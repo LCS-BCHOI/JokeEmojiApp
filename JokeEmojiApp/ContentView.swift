@@ -23,6 +23,11 @@ struct ContentView: View {
                     Text("Get A Joke")
                 }
                 Spacer()
+                NavigationLink(destination: SavedJokeView()){
+                    Text("All Saved Joke")
+                }
+                
+                Spacer()
                 
             }
             .navigationBarTitle("Jokes And Emoji")
