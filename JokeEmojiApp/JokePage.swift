@@ -10,6 +10,7 @@ import SwiftUI
 struct JokePage: View {
     @State private var joke:Joke = Joke(id: 1, type: "", setup:"", punchline: "")
     @State private var punchLine = ""
+    @State private var showAlert = false // Show alert when save joke
     
     var body: some View {
         VStack{
@@ -30,6 +31,15 @@ struct JokePage: View {
                         getJoke() // getting another joke
                         self.punchLine = ""
                     }
+                    Button(action: saveJoke){
+                        HStack{
+                            Spacer()
+                            Text("Save Joke")
+                            Spacer()
+                        }
+                    }
+                    
+                    
                 }
             }
             .navigationBarTitle("Jokes For You")
@@ -58,6 +68,10 @@ struct JokePage: View {
                 }
             }
         }.resume()
+        
+    }
+    
+    func saveJoke(){ // Save joke to somewhere I guess
         
     }
     
