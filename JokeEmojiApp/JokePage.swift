@@ -91,6 +91,7 @@ struct JokePage: View {
             print(savedJoke) // Showing a list of jokes
         }
         savedJoke.jokes.append(Joke(id: joke.id, type: joke.type, setup: joke.setup, punchline: joke.punchline)) // Pushing the joke into the list
+//        savedJoke = savedJokes(jokes: [Joke]())// Resetting the list
         print(savedJoke)
 
         //        // Saving it to user defaults
@@ -98,7 +99,7 @@ struct JokePage: View {
         if let encoded = try? encoder.encode(savedJoke) {
             let defaults = UserDefaults.standard
             defaults.set(encoded, forKey: "SavedJokes")
-            saved = false
+            saved = true // Joke is saved
         }
     }
     
