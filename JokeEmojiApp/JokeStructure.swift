@@ -12,3 +12,7 @@ struct Joke : Codable{
     var setup:String
     var punchline:String
 }
+
+struct savedJokes: Codable{
+    var jokes:[Joke] // A list of saved jokes
+}
